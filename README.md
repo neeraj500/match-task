@@ -5,7 +5,7 @@ A responsive web application built using React and Vite that displays a collecti
 ---
 
 **Live Demo:**
-View the live deployed version here: **[https://match-task.netlify.app/](https://YOUR_NETLIFY_SITE_NAME.netlify.app/)**
+View the live deployed version here: **[https://match-task.netlify.app/](https://match-task.netlify.app/)**
 
 ---
 
@@ -42,11 +42,11 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/neera500/match-task.git)
+    git clone (https://github.com/neeraj500/match-task.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd YOUR_REPO_NAME
+    cd match-task
     ```
 3.  **Install dependencies:**
     *(Use the package manager you prefer)*
