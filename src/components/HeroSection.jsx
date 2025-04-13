@@ -7,7 +7,8 @@ const HeroSection = () => {
   return (
     <>
       <div id="default-carousel" class="relative w-full" data-carousel="slide">
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-100">
+          {/* Carousel Items */}
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img
               src={slideOne}
@@ -31,8 +32,19 @@ const HeroSection = () => {
               alt="..."
             />
           </div>
+
+          {/* === Add the Fade Effect Div Here === */}
+          {/* IMPORTANT: Change 'from-white' to match the background color BEHIND the carousel */}
+          <div class="absolute bottom-0 left-0 right-0 z-30 h-8 bg-gradient-to-t from-orange-50 to-transparent pointer-events-none" />
+          {/* This div creates the fade effect */}
+          {/* pointer-events-none allows clicks/hovers to pass through to elements underneath (like controls) */}
+
+          {/* Example if the background behind the carousel is dark gray (bg-gray-900) */}
+          {/*
+   <div class="absolute bottom-0 left-0 right-0 z-10 h-1/4 bg-gradient-to-t from-gray-900 to-transparent pointer-events-none"></div>
+   */}
         </div>
-{/* slide controls */}
+        {/* slide controls */}
         <button
           type="button"
           class="absolute top-0 start-0 z-30 flex items-center justify-center h-full w-20 cursor-pointer group focus:outline-none"
