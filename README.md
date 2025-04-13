@@ -5,19 +5,7 @@ A responsive web application built using React and Vite that displays a collecti
 ---
 
 **Live Demo:**
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_BADGE_ID/deploy-status)](https://YOUR_NETLIFY_SITE_NAME.netlify.app/)
-
-View the live deployed version here: **[https://YOUR_NETLIFY_SITE_NAME.netlify.app/](https://YOUR_NETLIFY_SITE_NAME.netlify.app/)**
-
-*(Replace the badge ID and link above with your actual Netlify details. You can find the badge snippet in your Netlify site's settings under "Status badges")*
-
----
-
-**Screenshot:**
-
-![Project Screenshot](placeholder.png)
-*(Replace `placeholder.png` with a path to an actual screenshot of your application. You can upload the image to your repository and link it.)*
+View the live deployed version here: **[https://match-task.netlify.app/](https://YOUR_NETLIFY_SITE_NAME.netlify.app/)**
 
 ---
 
@@ -54,7 +42,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/neera500/match-task.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
