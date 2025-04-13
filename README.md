@@ -80,7 +80,3 @@ This project is set up for deployment on **Netlify**.
     2.  Connect your GitHub repository to Netlify.
     3.  Configure the build settings (Netlify often detects Vite settings automatically, but they are explicitly set in `netlify.toml`).
     4.  Deploy! Netlify will automatically build and deploy your site upon pushes to the main branch.
-
----
-
-## Project Structure (Simplified)
