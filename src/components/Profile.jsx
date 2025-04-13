@@ -4,9 +4,9 @@ import Separator from "./Separator";
 
 const Profile = () => {
   return (
-    <div className="p-6 min-h-screen w-full bg-[#fffcf3]">
+    <div className="py-10 min-h-screen w-full bg-[#fffcf3]">
       {/* Title: Centered text */}
-      <h1 className="text-xl font-bold text-gray-[#141614] mb-8 text-center">
+      <h1 className="text-2xl font-bold text-gray-700 mb-8 text-center">
         Featured Profiles
       </h1>
 
@@ -14,7 +14,7 @@ const Profile = () => {
         {data.map((item) => ( 
           <div
             key={item.id || item.name} 
-            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transition-shadow duration-300  hover:shadow-lg border-2 border-[#e5d1c2] py-4"
+            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transition-shadow duration-300  hover:shadow-lg border-3 border-[#eec19f] py-4"
           >
             {/* Top Section: Avatar and Basic Info */}
     
