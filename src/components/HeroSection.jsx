@@ -11,7 +11,7 @@ const HeroSection = () => {
           {/* Carousel Items */}
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="/slide-one.jpg"
+              src="/slideOne.jpg"
               class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
@@ -19,7 +19,7 @@ const HeroSection = () => {
 
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="/slide-two.jpg"
+              src="/slideTwo.jpg"
               class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
@@ -27,7 +27,7 @@ const HeroSection = () => {
 
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="/slide-three.jpg"
+              src="/slideThree.jpg"
               class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
