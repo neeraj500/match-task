@@ -1,7 +1,7 @@
 import React from "react";
-import slideOne from "../../public/slide-one.jpg";
-import slideTwo from "../../public/slide-two.jpg";
-import slideThree from "../../public/slide-three.jpg";
+import slideOne from "/slide-one.jpg";
+import slideTwo from "/slide-two.jpg";
+import slideThree from "/slide-three.jpg";
 
 const HeroSection = () => {
   return (
