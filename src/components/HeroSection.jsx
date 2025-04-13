@@ -1,7 +1,7 @@
 import React from "react";
-import slideOne from "/slide-one.jpg";
-import slideTwo from "/slide-two.jpg";
-import slideThree from "/slide-three.jpg";
+// import slideOne from "/slide-one.jpg";
+// import slideTwo from "/slide-two.jpg";
+// import slideThree from "/slide-three.jpg";
 
 const HeroSection = () => {
   return (
@@ -11,7 +11,7 @@ const HeroSection = () => {
           {/* Carousel Items */}
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src={slideOne}
+              src="/slide-one.jpg"
               class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
@@ -19,7 +19,7 @@ const HeroSection = () => {
 
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src={slideTwo}
+              src="/slide-two.jpg"
               class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
@@ -27,7 +27,7 @@ const HeroSection = () => {
 
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src={slideThree}
+              src="/slide-three.jpg"
               class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
