@@ -32,18 +32,9 @@ const HeroSection = () => {
               alt="..."
             />
           </div>
-
-          {/* === Add the Fade Effect Div Here === */}
-          {/* IMPORTANT: Change 'from-white' to match the background color BEHIND the carousel */}
           <div class="absolute bottom-0 left-0 right-0 z-30 h-8 bg-gradient-to-t from-orange-50 to-transparent pointer-events-none" />
-          {/* This div creates the fade effect */}
-          {/* pointer-events-none allows clicks/hovers to pass through to elements underneath (like controls) */}
-
-          {/* Example if the background behind the carousel is dark gray (bg-gray-900) */}
-          {/*
-   <div class="absolute bottom-0 left-0 right-0 z-10 h-1/4 bg-gradient-to-t from-gray-900 to-transparent pointer-events-none"></div>
-   */}
         </div>
+
         {/* slide controls */}
         <button
           type="button"
